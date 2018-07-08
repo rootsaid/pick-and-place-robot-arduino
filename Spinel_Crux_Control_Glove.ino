@@ -1,3 +1,4 @@
+//Complete Tutorial at - https://rootsaid.com/gesture-controlled-robot/
 #include <SPI.h>
 #include <WiFi101.h>
 #include <WiFiUdp.h>
@@ -5,8 +6,8 @@
 int ledPin = 6;
 int s2,s3,s4;
 int status = WL_IDLE_STATUS;
-char ssid[] = "Green Terminal"; //WiFi Network Name
-char pass[] = "Iamferitanin0!"; //WiFi Network Password
+char ssid[] = "RootSaid"; //WiFi Network Name
+char pass[] = "www.rootsaid.com"; //WiFi Network Password
 int keyIndex = 0;
 unsigned int localPort = 6661;
 char packetBuffer[255];
