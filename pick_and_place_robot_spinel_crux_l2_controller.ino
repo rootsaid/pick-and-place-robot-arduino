@@ -32,15 +32,15 @@ bf = analogRead(A2);
 sw = analogRead(A4);
 
 HC12.print(x);
-Serial.print(",");
+HC12.print(",");
 HC12.print(y);
-Serial.print(",");
+HC12.print(",");
 HC12.print(lr);
-Serial.print(",");
+HC12.print(",");
 HC12.print(br);
-Serial.print(",");
+HC12.print(",");
 HC12.print(sw);
-Serial.print(",");
+HC12.println("");
 
 delay(100);
 }
